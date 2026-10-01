@@ -26,6 +26,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+require("./lib/node-compat");
 const utils = __importStar(require("@iobroker/adapter-core"));
 const states_1 = require("./lib/states");
 const ocpp_eliftech_1 = require("@ampeco/ocpp-eliftech");

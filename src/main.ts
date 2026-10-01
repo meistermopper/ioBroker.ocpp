@@ -2,6 +2,7 @@
  * Created with @iobroker/create-adapter v2.0.1
  */
 
+import './lib/node-compat';
 import * as utils from '@iobroker/adapter-core';
 import { getConnectorObjects, deviceObjects } from './lib/states';
 import { BaseCommand, CentralSystem, CentralSystemClient, OCPPCommands, OCPPConnection } from '@ampeco/ocpp-eliftech';
